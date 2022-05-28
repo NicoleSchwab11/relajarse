@@ -1,0 +1,279 @@
+@media screen and (max-width: 640px) {
+   a{
+       font-size: 80%;
+   }
+   img{
+    max-width: 100%;
+    }
+    iframe{
+        width: 250px;
+    }
+   #icono{
+    size: 50%;
+    }
+   .inicio{
+      background-position: center;
+   }
+   .flex-container{
+    height: 2200px;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    #icono{
+        font-size: 300%;
+    }
+    ul{
+        width: 60%;
+    }
+    #tituloprincipal{
+        font-size: 200%;
+    }
+    li{
+        margin-right: 0.3em;
+        margin-left: 0.3em;
+    }
+    p{
+        font-size: 80%;
+    }
+    h1{
+        font-size: 100%;
+    }
+}
+/* CELULARES */
+
+
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    a{
+        font-size: 125%;
+        margin: 0.5em;
+    }
+    img{
+        max-width: 80%;
+    }
+    #icono{
+        size: 85%;
+    }
+    .flex-container{
+        height: 2200px;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    #icono{
+        font-size: 300%;
+    }
+    ul{
+        width: 50%;
+    }
+    #tituloprincipal{
+        font-size: 2em;
+    }
+    li{
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    p{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 150%;
+    }
+}
+/* TABLET */
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 3000px){
+    a{
+        font-size: 150%;
+        margin: 1em;
+    }
+    img{
+        max-width: 80%;
+    }
+    #icono{
+        size: 100%;
+    }
+    .flex-container{
+        height: 1250px;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    #icono{
+        font-size: 300%;
+    }
+    ul{
+        width: 50%;
+    }
+    #tituloprincipal{
+        font-size: 3em;
+    }
+    li{
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    p{
+        font-size: 150%;
+    }
+    h1{
+        font-size: 200%;
+    }
+}
+/* COMPU */
+
+html{
+    background-color: #CADAE2;
+}
+
+@keyframes BordeRelajante{
+    0%{
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100%{
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B7896;
+}
+#icono{
+    background-color: #3B7896;
+}
+ul{
+    display: flex;
+    background-color: #3B7896;
+}
+
+li{
+    background-color: #3B7896;
+    display: flex;
+    align-items: center;
+}
+a{
+    background-color: #3B7896;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.clickk:hover{
+    color: aliceblue;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    padding-top: 1em;
+}
+footer{
+    background-color: #3B7896;
+    height: 7em;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.inicio{
+background-image:url(https://okdiario.com/img/2021/02/29/nubes-655x368.jpg);
+background-size: 100%;
+margin-top: 2em;
+animation: BordeRelajante 1.5s linear;
+background-repeat: no-repeat;
+}
+#tituloprincipal{
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    padding: 2em;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container>div {
+    width: 420px;
+    height: 236.25px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: none;
+}
+#formulario{
+    background-color: #1D3B4A;
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    color: white;
+    padding: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    margin: 1em;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+textarea{
+    border-radius: 1em;
+    resize: none;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+select{
+    border-radius: 1em;
+    padding: 0.3em;
+}
+.boton{
+    width: 10em;
+}
+.boton:hover{
+    background-color: aquamarine;
+}
+.boton:active{
+    background-color: aquamarine;
+    width: 8em;
+}
+.warning{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+    font-size: 18px;
+}
+

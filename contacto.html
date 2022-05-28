@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53afb7f295.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Imagenes/meditacion.png">
+</head>
+<body>
+    <header>
+        <nav id="container"> 
+            <ul>
+                <li><a href="index.html" class="clickk">Inicio</a></li>
+                <li><a href="tecnicas.html" class="clickk">Tecnicas</a></li>
+                <li><a href="animalitos.html" class="clickk">Animales tiernos</a></li>
+                <li><a href="contacto.html" class="clickk">Contacto</a></li>
+            </ul>
+            <a href="index.html"> <i class="fa-solid fa-cat fa-4x" id="icono"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="inicio">
+            <div>
+                <h1 id="tituloprincipal">Formulario de contacto</h1>
+            </div>
+        </section>
+
+    <section>
+            <form id="formulario"> 
+                <input type="text" name="nombre" placeholder="Ingrese su Nombre" id="nombre">
+                <input type="text" name="apellido" placeholder="Ingrese su Apellido" id="apellido">
+                <input type="text" name="email" placeholder="Ingrese su Email" id="email">
+                <label>Recomendaciones no obligatorias: <br>
+                    <textarea name="comentarios" cols="30" rows="10"></textarea>
+                </label>
+                <input type="reset" value="Restablecer" name="reset" class="boton">
+                <input type="submit" value="Enviar" class="boton">
+                <p class="warning" id="warning"></p>
+            </form>
+    </section>
+    </main>
+    <footer>
+        <h4>Redes sociales de la creadora de la pagina:</h4>
+        <div>
+            <a href="https://www.instagram.com/nicoleschwab11/" class="clickk"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/nicole-schwab-481751237" class="clickk"><i class="fa-brands fa-linkedin fa-2x"></i></a>     
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
